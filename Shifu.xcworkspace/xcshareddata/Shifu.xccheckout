@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1EC57128-5E7F-45FE-93B4-E8A45C408D95</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Shifu</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8B74D21C9EB1DF8EF3FDB14DEE8B31F72DC39D4B</key>
+		<string>github.com:piyush-kumher/Shifu.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Shifu.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8B74D21C9EB1DF8EF3FDB14DEE8B31F72DC39D4B</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:piyush-kumher/Shifu.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8B74D21C9EB1DF8EF3FDB14DEE8B31F72DC39D4B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8B74D21C9EB1DF8EF3FDB14DEE8B31F72DC39D4B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Shifu</string>
+		</dict>
+	</array>
+</dict>
+</plist>
