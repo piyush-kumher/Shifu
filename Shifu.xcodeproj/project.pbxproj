@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		1BE840CECE3E7C1F5A9468AB /* Pods_ShifuTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B44D8D01584B187C23598A5F /* Pods_ShifuTests.framework */; };
+		B22780D01EFCE38000B63420 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B22780CF1EFCE38000B63420 /* Alamofire.framework */; };
+		B22780D11EFCE38000B63420 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B22780CF1EFCE38000B63420 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B22780D31EFCE38B00B63420 /* Pods_Shifu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 054477E12A2FF127699540A6 /* Pods_Shifu.framework */; };
+		B262B7581EFC7368001FDB8E /* ValidateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B262B7571EFC7368001FDB8E /* ValidateController.swift */; };
 		B2D6A53D1EFBC84F007B063A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D6A53C1EFBC84F007B063A /* AppDelegate.swift */; };
 		B2D6A53F1EFBC84F007B063A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D6A53E1EFBC84F007B063A /* ViewController.swift */; };
 		B2D6A5411EFBC84F007B063A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2D6A5401EFBC84F007B063A /* Images.xcassets */; };
@@ -15,7 +19,6 @@
 		B2D6A5501EFBC84F007B063A /* ShifuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D6A54F1EFBC84F007B063A /* ShifuTests.swift */; };
 		B2D6A55A1EFBDBF4007B063A /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B2D6A5591EFBDBF4007B063A /* Podfile */; };
 		B2D6A55E1EFBF3DD007B063A /* SystemConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D6A55D1EFBF3DD007B063A /* SystemConfiguration.swift */; };
-		FC3D40F10CEAB90B37A18C25 /* Pods_Shifu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 054477E12A2FF127699540A6 /* Pods_Shifu.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,11 +31,27 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B22780D21EFCE38000B63420 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B22780D11EFCE38000B63420 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		054477E12A2FF127699540A6 /* Pods_Shifu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shifu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		06DE68F550050A017663A938 /* Pods-Shifu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shifu.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shifu/Pods-Shifu.release.xcconfig"; sourceTree = "<group>"; };
 		1BA9D9910D6BB5B76C057419 /* Pods-ShifuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShifuTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShifuTests/Pods-ShifuTests.release.xcconfig"; sourceTree = "<group>"; };
 		977AF2F7EC509D43155F0C76 /* Pods-Shifu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shifu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shifu/Pods-Shifu.debug.xcconfig"; sourceTree = "<group>"; };
+		B22780CF1EFCE38000B63420 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = Alamofire.framework; path = "/Users/shubham.kankaria/Library/Developer/Xcode/DerivedData/Shifu-hiufwrfswukpcyfhquwymzbawzpy/Build/Products/Debug/Alamofire/Alamofire.framework"; sourceTree = "<absolute>"; };
+		B262B7571EFC7368001FDB8E /* ValidateController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidateController.swift; sourceTree = "<group>"; };
 		B2D6A5371EFBC84F007B063A /* Shifu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shifu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2D6A53B1EFBC84F007B063A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2D6A53C1EFBC84F007B063A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -53,7 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC3D40F10CEAB90B37A18C25 /* Pods_Shifu.framework in Frameworks */,
+				B22780D31EFCE38B00B63420 /* Pods_Shifu.framework in Frameworks */,
+				B22780D01EFCE38000B63420 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +100,7 @@
 		B2D6A52E1EFBC84F007B063A = {
 			isa = PBXGroup;
 			children = (
+				B22780CF1EFCE38000B63420 /* Alamofire.framework */,
 				B2D6A5591EFBDBF4007B063A /* Podfile */,
 				B2D6A5391EFBC84F007B063A /* Shifu */,
 				B2D6A54C1EFBC84F007B063A /* ShifuTests */,
@@ -107,6 +128,7 @@
 				B2D6A5421EFBC84F007B063A /* Main.storyboard */,
 				B2D6A53A1EFBC84F007B063A /* Supporting Files */,
 				B2D6A55D1EFBF3DD007B063A /* SystemConfiguration.swift */,
+				B262B7571EFC7368001FDB8E /* ValidateController.swift */,
 			);
 			path = Shifu;
 			sourceTree = "<group>";
@@ -160,6 +182,7 @@
 				B2D6A5351EFBC84F007B063A /* Resources */,
 				21804DE22EE7DC38B8F1D44A /* [CP] Embed Pods Frameworks */,
 				A6CBCDC3A974B2B38EAA3F21 /* [CP] Copy Pods Resources */,
+				B22780D21EFCE38000B63420 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -350,6 +373,7 @@
 			files = (
 				B2D6A53F1EFBC84F007B063A /* ViewController.swift in Sources */,
 				B2D6A55E1EFBF3DD007B063A /* SystemConfiguration.swift in Sources */,
+				B262B7581EFC7368001FDB8E /* ValidateController.swift in Sources */,
 				B2D6A53D1EFBC84F007B063A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
